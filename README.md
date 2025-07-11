@@ -145,4 +145,4 @@ private_subnet_ids        = [...]
 
 ## 🤝 Credits
 Made by Santosh Bitra
-DevOps | Terraform | AWS | Kubernetes
+DevOps | Terraform | AWS | Azure | Kubernetes | Python
