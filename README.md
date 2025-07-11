@@ -149,5 +149,3 @@ DevOps | Terraform | AWS | Azure | Kubernetes | Python
 
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=santosh-bitra_eks-cluster-productionGrade&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=santosh-bitra_eks-cluster-productionGrade)
-
-#https://sonarcloud.io/api/project_badges/measure?project=santosh-bitra_eks-cluster-productionGrade&metric=alert_status
