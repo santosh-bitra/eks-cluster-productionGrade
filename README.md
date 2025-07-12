@@ -71,7 +71,7 @@ region          = "us-east-1"
 vpc_id          = "vpc-xxxxxxxx"
 vpc_cidr_block  = "192.168.0.0/16"
 cluster_name    = "eksdemo"
-ssh_key_name    = "eksdemo1-cluster-key"
+ssh_key_name    = <your-aws-ssh-key>
 instance_types  = ["t3.medium"]
 ```
 
