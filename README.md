@@ -1,5 +1,7 @@
 # 📦 EKS-Terraform-Infra
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=santosh-bitra_eks-cluster-productionGrade&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=santosh-bitra_eks-cluster-productionGrade)
+
 > **Production-Grade Infrastructure as Code** using Terraform to deploy a highly available, secure, and modular **Amazon EKS Cluster**.
 
 ---
@@ -110,6 +112,33 @@ kubectl get nodes
 
 ---
 
+## 🧪 CI/CD & Static Code Analysis
+
+This project uses **GitHub Actions** to perform automated security and quality checks on every push or pull request to the `main` branch.
+
+### ✅ CI Workflow Overview
+The GitHub Actions workflow includes:
+- Code checkout and preparation
+- Static code analysis with **SonarCloud**
+- Detection of security vulnerabilities, code smells, and maintainability issues in Terraform code
+
+### 🛠️ Workflow File
+The workflow is defined at:
+`.github/workflows/VulnerabilityCheck.yml`
+
+### 🔐 Secrets Used
+| Secret Name   | Purpose                          |
+|---------------|----------------------------------|
+| SONAR_TOKEN   | Authenticates GitHub Action with SonarCloud |
+
+### 📈 SonarCloud Badge
+The badge at the top of this README reflects the current quality gate status:
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=santosh-bitra_eks-cluster-productionGrade&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=santosh-bitra_eks-cluster-productionGrade)
+
+You can view the full SonarCloud dashboard [here](https://sonarcloud.io/summary/new_code?id=santosh-bitra_eks-cluster-productionGrade).
+
+---
+
 ## 🧹 Cleanup
 
 ```bash
@@ -148,4 +177,3 @@ Made by Santosh Bitra
 DevOps | Terraform | AWS | Azure | Kubernetes | Python 
 
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=santosh-bitra_eks-cluster-productionGrade&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=santosh-bitra_eks-cluster-productionGrade)
